@@ -19,17 +19,18 @@ p {
 a {
     text-decoration: none;
 }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+
 .logo {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -41,6 +42,9 @@ a {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    &__part {
+        color: $accentColor;
+    }
 }
 .button {
     border-radius: 4px;
@@ -81,4 +85,13 @@ a {
     line-height: 1.16;
     text-align: center;
     margin-bottom: 50px;
+}
+.reuse__title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $generalColor;
 }
