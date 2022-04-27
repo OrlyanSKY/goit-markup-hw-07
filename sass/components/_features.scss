@@ -1,0 +1,32 @@
+.features {
+    padding-top: 94px;
+    &__list {
+        display: flex;
+    }
+    &__item {
+        width: 270px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    &__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: $lightBack;
+        height: 120px;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    &__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: $mainTitleColor;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__text {
+        line-height: 1.71;
+    }
+}
