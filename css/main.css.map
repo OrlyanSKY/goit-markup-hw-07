@@ -14,7 +14,8 @@
         "../sass/components/_products.scss",
         "../sass/components/_our-team.scss",
         "../sass/components/_clients.scss",
-        "../sass/components/_footer.scss"
+        "../sass/components/_footer.scss",
+        "../sass/components/portfolio/_filters.scss"
     ],
     "names": [],
     "file": "main.css"
