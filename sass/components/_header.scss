@@ -14,11 +14,11 @@
     margin-left: 93px;
     margin-bottom: -1px;
 
-    &__item:not(:last-child) {
+    .site-nav__item:not(:last-child) {
         margin-right: 50px;
     }
 
-    &__link {
+    .site-nav__link {
         display: block;
         padding-top: 32px;
 
@@ -33,7 +33,7 @@
             color: $accentColor;
         }
     }
-    &__link--activ {
+    .site-nav__link--activ {
         color: $accentColor;
         &::after {
             content: '';
@@ -52,11 +52,11 @@
     display: flex;
     margin-left: auto;
 
-    &__item:not(:last-child) {
+    .contacts__item:not(:last-child) {
         margin-right: 30px;
     }
 
-    &__link {
+    .contacts__link {
         display: flex;
         align-items: center;
 
@@ -78,7 +78,7 @@
         }
     }
 
-    &__icon {
+    .contacts__icon {
         margin-right: 10px;
         fill: currentColor;
     }

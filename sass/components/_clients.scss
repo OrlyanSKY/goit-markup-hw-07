@@ -1,9 +1,10 @@
 .client-list {
     display: flex;
-    &__item:not(:last-child) {
+
+    .client-list__item:not(:last-child) {
         margin-right: 30px;
     }
-    &__link {
+    .client-list__link {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,7 +22,7 @@
             color: $accentColor;
         }
     }
-    &__icon {
+    .client-list__icon {
         fill: currentColor;
     }
 }

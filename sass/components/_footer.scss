@@ -15,10 +15,11 @@
 }
 .address {
     margin-top: 20px;
-    &__item:not(:last-child) {
+
+    .address__item:not(:last-child) {
         margin-bottom: 9px;
     }
-    &__link {
+    .address__link {
         text-decoration: none;
         font-style: normal;
         line-height: 1.71;
@@ -29,9 +30,9 @@
             color: $accentColor;
         }
     }
-}
-.address__link--general {
-    color: $generalColor;
+    .address__link--general {
+        color: $generalColor;
+    }
 }
 
 .join-block {

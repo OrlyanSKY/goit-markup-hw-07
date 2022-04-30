@@ -1,12 +1,16 @@
 .product {
     display: flex;
-    &__item {
+    .product__item {
         position: relative;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
-    &__image {
+    .product__image {
         display: block;
     }
-    &__wrapper {
+    .product__wrapper {
         position: absolute;
         padding: 27px 0 27px 0;
         left: 0;
@@ -15,7 +19,4 @@
         text-align: center;
         background: rgba(47, 48, 58, 0.8);
     }
-}
-.product__item:not(:last-child) {
-    margin-right: 30px;
 }
